@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   
   const triggerRequest = () => {
-    axios.get(`${import.meta.env.VITE_BACKEND_URL}/apiRequestWithCredentials`)
+    axios.get(`${import.meta.env.VITE_BACKEND_URL}/api-request-with-credentials`)
       .then(response => {
         console.log(response.data)
       })
